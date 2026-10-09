@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    margin-top: 30px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.botao button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.corpo {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10vw;
+    margin-left: 10px;
+}
+
+.texto {
+    margin-top: 100px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    font-size: 5rem;
+}
+.paragrafo{
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.imagem img {
+    width: 550px;
+    height: 600px;
+}
